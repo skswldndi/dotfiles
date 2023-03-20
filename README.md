@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/86106509/226273541-8b24936a-8ef5-43ec-
 ## Alfred 5
 ## Yabai + skhd
 ## Übersicht + status bar
-# nvim
+## nvim
 ## Shell
 ## Alarcritty
 ## Tmux
