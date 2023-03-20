@@ -1,6 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+alias python=python3
+
 # for dotfiles
 alias dotfiles='/usr/bin/git --git-dir=/Users/skswldndi/.dotfiles/ --work-tree=/Users/skswldndi'
 export GPG_TTY=$(tty) # github gpg issue fix
