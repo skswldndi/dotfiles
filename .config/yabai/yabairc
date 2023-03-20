@@ -21,17 +21,23 @@ yabai -m config window_gap 15
 
 # Floating apps
 yabai -m rule --add app="^Alacritty$" manage=off border=off 
-yabai -m rule --add app="Safari" opacity=1.0
-yabai -m rule --add app="qutebrowser" opacity=1.0
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Reminders$" manage=off
+yabai -m rule --add app="^Calendar$" manage=off
+yabai -m rule --add app="^Notes$" manage=off
+yabai -m rule --add app="^Photos$" manage=off
+yabai -m rule --add app="^Photo Booth$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Mail$" manage=off
+# yabai -m rule --add app="Safari" opacity=1.0
+# yabai -m rule --add app="qutebrowser" opacity=1.0
 
 yabai -m config window_border_blur off
 
 # window opacity
-yabai -m config window_opacity on 
-yabai -m config active_window_opacity 1.0
-yabai -m config normal_window_opacity 0.5
-
-# window specified opacity for browsers
+yabai -m config window_opacity off 
+# yabai -m config active_window_opacity 1.0
+# yabai -m config normal_window_opacity 0.5
 
 # window border seetings
 yabai -m config window_border_radius 0
@@ -62,9 +68,10 @@ yabai -m config mouse_drop_action swap
 yabai -m config external_bar all:26:0 
 
 # space settings
-yabai -m space 1 --label code
-yabai -m space 2 --label web
-yabai -m space 3 --label messenger
-yabai -m space 4 --label docs
+yabai -m space 1 --label BASE
+yabai -m space 2 --label CODE
+yabai -m space 3 --label WEB
+yabai -m space 4 --label MESSENGER
+yabai -m space 5 --label DOCS
 
 echo "yabai configuration loaded.."
