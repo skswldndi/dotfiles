@@ -5,7 +5,7 @@ font:
   mac_use_thin_fonts: false
 
 window:
-  opacity: 0.9
+  opacity: 1.0 
   decorations: None
   padding:
     x: 30
