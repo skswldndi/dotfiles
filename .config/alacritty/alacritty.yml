@@ -1,0 +1,14 @@
+font:
+  normal:
+    family: Source Code Pro for Powerline
+  size: 13
+  mac_use_thin_fonts: false
+
+window:
+  opacity: 0.9
+  decorations: None
+  padding:
+    x: 30
+    y: 20
+  dynamic_padding: false
+
