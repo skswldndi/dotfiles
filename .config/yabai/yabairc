@@ -17,7 +17,7 @@ yabai -m config top_padding 25
 yabai -m config bottom_padding 30
 yabai -m config left_padding 5
 yabai -m config right_padding 5
-yabai -m config window_gap 1
+yabai -m config window_gap 5
 
 # Floating apps
 yabai -m rule --add app="^Alacritty$" manage=off 
@@ -28,22 +28,22 @@ yabai -m rule --add app="^Notes$" manage=off
 yabai -m rule --add app="^Photos$" manage=off
 yabai -m rule --add app="^Photo Booth$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
-yabai -m rule --add app="^Mail$" manage=off
-# yabai -m rule --add app="Safari" opacity=1.0
-# yabai -m rule --add app="qutebrowser" opacity=1.0
+yabai -m rule --add app="^KakaoTalk$" manage=off
+yabai -m rule --add app="Safari" manage=off
+yabai -m rule --add app="qutebrowser" manage=off
 
 yabai -m config window_border_blur off
 
 # window opacity
-yabai -m config window_opacity off 
-# yabai -m config active_window_opacity 1.0
-# yabai -m config normal_window_opacity 0.75
+yabai -m config window_opacity on 
+yabai -m config active_window_opacity 1.0
+yabai -m config normal_window_opacity 0.7
 
 # window border seetings
 yabai -m config window_border_radius 0
 yabai -m config window_border on
 yabai -m config window_border_placement exterior
-yabai -m config window_border_width 10
+yabai -m config window_border_width 5
 
 # global settings
 yabai -m config focus_follows_mouse off
@@ -61,16 +61,16 @@ yabai -m config active_window_border_color 0xFFE6EBF1
 yabai -m config split_ratio 0.50 
 yabai -m config split_type auto 
 yabai -m config mouse_modifier fn 
-yabai -m config mouse_action1 resize 
-yabai -m config mouse_action2 move 
+yabai -m config mouse_action1 move 
+yabai -m config mouse_action2 resize 
 yabai -m config mouse_drop_action swap 
 
 yabai -m config external_bar all:26:0 
 
 # space settings
-yabai -m space 1 --label BASE
-yabai -m space 2 --label EDIT
-yabai -m space 3 --label BROWSER
-yabai -m space 4 --label SOCIAL
+yabai -m space 1 --label EINS 
+yabai -m space 2 --label ZWEI
+yabai -m space 3 --label DREI
+yabai -m space 4 --label VIER
 
 echo "yabai configuration loaded.."
