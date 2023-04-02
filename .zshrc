@@ -1,7 +1,19 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 alias python=python3
+
+DEFAULT_USER="skswldndi"
+# for no user id
+prompt_context() { 
+	if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then 
+    	prompt_segment black default "%(!.%{%F{yellow}%}.)$USER" 
+    fi 
+}
 
 # for dotfiles
 alias dotfiles='/usr/bin/git --git-dir=/Users/skswldndi/.dotfiles/ --work-tree=/Users/skswldndi'
@@ -21,12 +33,15 @@ export TERM="xterm-256color"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -91,7 +106,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -119,3 +133,25 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export EDITOR=nvim
 export VISUAL="$EDITOR"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/skswldndi/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/skswldndi/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/skswldndi/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/skswldndi/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+alias plz="please"
+alias cals='/opt/homebrew/bin/icalBuddy -f -n -sd -eep "location" eventsToday+1' 
+
+# please
+# /opt/homebrew/bin/icalBuddy -f -sd -eep "location" eventsToday+1 
+
