@@ -13,31 +13,31 @@ sudo yabai --load-sa
 
 # all padding and gaps
 yabai -m config layout bsp
-yabai -m config top_padding 25
+yabai -m config top_padding 13
 yabai -m config bottom_padding 30
 yabai -m config left_padding 5
 yabai -m config right_padding 5
 yabai -m config window_gap 5
 
 # Floating apps
-yabai -m rule --add app="^Alacritty$" manage=off 
+# yabai -m rule --add app="^Alacritty$" manage=off 
 yabai -m rule --add app="^System Settings$" manage=off
-yabai -m rule --add app="^Reminders$" manage=off
-yabai -m rule --add app="^Calendar$" manage=off
-yabai -m rule --add app="^Notes$" manage=off
-yabai -m rule --add app="^Photos$" manage=off
-yabai -m rule --add app="^Photo Booth$" manage=off
+# yabai -m rule --add app="^Reminders$" manage=off
+# yabai -m rule --add app="^Calendar$" manage=off
+# yabai -m rule --add app="^Notes$" manage=off
+# yabai -m rule --add app="^Photos$" manage=off
+# yabai -m rule --add app="^Photo Booth$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
 yabai -m rule --add app="^KakaoTalk$" manage=off
-yabai -m rule --add app="Safari" manage=off
-yabai -m rule --add app="qutebrowser" manage=off
+# yabai -m rule --add app="Safari" manage=off
+# yabai -m rule --add app="qutebrowser" manage=off
 
 yabai -m config window_border_blur off
 
 # window opacity
 yabai -m config window_opacity on 
 yabai -m config active_window_opacity 1.0
-yabai -m config normal_window_opacity 0.7
+yabai -m config normal_window_opacity 0.5
 
 # window border seetings
 yabai -m config window_border_radius 0
@@ -54,9 +54,9 @@ yabai -m config window_placement second_child
 yabai -m config window_topmost false 
 yabai -m config window_shadow float 
 
-yabai -m config insert_feedback_color 0xFFE6EBF1
-yabai -m config normal_window_border_color 0xFF2D4059 
-yabai -m config active_window_border_color 0xFFE6EBF1 
+yabai -m config insert_feedback_color 0xE02d74da
+yabai -m config normal_window_border_color 0xE03f3c3c
+yabai -m config active_window_border_color 0xE0ebdcb2
 
 yabai -m config split_ratio 0.50 
 yabai -m config split_type auto 
@@ -68,9 +68,9 @@ yabai -m config mouse_drop_action swap
 yabai -m config external_bar all:26:0 
 
 # space settings
-yabai -m space 1 --label EINS 
-yabai -m space 2 --label ZWEI
-yabai -m space 3 --label DREI
-yabai -m space 4 --label VIER
+# yabai -m space 1 --label EINS 
+# yabai -m space 2 --label ZWEI
+# yabai -m space 3 --label DREI
+# yabai -m space 4 --label VIER
 
 echo "yabai configuration loaded.."
