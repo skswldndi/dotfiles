@@ -21,3 +21,8 @@ https://user-images.githubusercontent.com/86106509/226273541-8b24936a-8ef5-43ec-
 - Safari with Vimari, which is vim extension
 ## ranger
 - colorscheme: https://github.com/ranger/colorschemes.git
+## Karabiner 
+- vim preview 
+- Esc to ABC 
+- Change right_commmand+hjkl to arrow keys
+- Mouse keys (xgwang.me)
