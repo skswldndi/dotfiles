@@ -29,6 +29,13 @@ alt + shift - 3 : yabai -m window --space 3
 alt + shift - 4 : yabai -m window --space 4
 alt + shift - 5 : yabai -m window --space 5
 
+ # focus monitor
+alt + shift - w  : yabai -m display --focus 1
+alt + shift - e  : yabai -m display --focus 2
+
+# balance size of windows 
+shift + alt - 0 : yabai -m space --balance
+
 # change layout
 ## Moving windows
 shift + alt - h : yabai -m window --warp west
