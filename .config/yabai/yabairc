@@ -35,7 +35,7 @@ yabai -m rule --add app="^KakaoTalk$" manage=off
 yabai -m config window_border_blur off
 
 # window opacity
-yabai -m config window_opacity on 
+yabai -m config window_opacity off 
 yabai -m config active_window_opacity 1.0
 yabai -m config normal_window_opacity 0.5
 
