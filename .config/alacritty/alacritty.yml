@@ -14,7 +14,7 @@ window:
   decorations: none
   # Allow terminal applications to change Alacritty's window title.
   dynamic_title: true
-  opacity: 0.9
+  opacity: 1
 # Font configuration
 font:
   normal:
