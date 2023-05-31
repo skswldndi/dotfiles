@@ -1,26 +1,12 @@
+# applications 
+alt - return : /Applications/Alacritty.app/Contents/MacOS/alacritty
+alt - s : /Applications/Safari.app/Contents/MacOS/safari
+
 # change focus
 alt - h : yabai -m window --focus west
 alt - j : yabai -m window --focus south
 alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
-
-# (alt) change focus (using arrow keys)
-alt - left  : yabai -m window --focus west
-alt - down  : yabai -m window --focus south
-alt - up    : yabai -m window --focus north
-alt - right : yabai -m window --focus east
-
-# shift window in current workspace
-alt + shift - h : yabai -m window --swap west || $(yabai -m window --display west; yabai -m display --focus west)
-alt + shift - j : yabai -m window --swap south || $(yabai -m window --display south; yabai -m display --focus south)
-alt + shift - k : yabai -m window --swap north || $(yabai -m window --display north; yabai -m display --focus north)
-alt + shift - l : yabai -m window --swap east || $(yabai -m window --display east; yabai -m display --focus east)
-
-# alternatively, use the arrow keys
-alt + shift - left : yabai -m window --swap west || $(yabai -m window --display west; yabai -m display --focus west)
-alt + shift - down : yabai -m window --swap south || $(yabai -m window --display south; yabai -m display --focus south)
-alt + shift - up : yabai -m window --swap north || $(yabai -m window --display north; yabai -m display --focus north)
-alt + shift - right : yabai -m window --swap east || $(yabai -m window --display east; yabai -m display --focus east)
 
 # move focused window to next/prev workspace
 alt + shift - 1 : yabai -m window --space 1
@@ -53,4 +39,5 @@ lctrl + alt - k : yabai -m window --resize top:0:-50; \
 lctrl + alt - l : yabai -m window --resize right:50:0; \
                   yabai -m window --resize left:50:0
 
-
+# switch from column split to horizontal split 
+alt - space : yabai -m window --toggle split
