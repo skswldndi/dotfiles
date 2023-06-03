@@ -11,9 +11,11 @@ https://user-images.githubusercontent.com/86106509/226273541-8b24936a-8ef5-43ec-
 - (zsh)Nord theme: https://github.com/TyWR/Nord-zsh
 - (zsh)Nord theme2: https://github.com/fxbrit/nord-extended
 - gruvbox theme: https://github.com/morhetz/gruvbox-contrib
+## Alacritty 
 ## nvim (SpaceVim)
 - nord theme
 - gruvbox
+- Copilot 
 ## Tmux
 - nord theme: https://github.com/nordtheme/tmux
 - gruvbox theme: https://github.com/egel/tmux-gruvbox
