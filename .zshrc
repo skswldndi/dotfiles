@@ -152,5 +152,6 @@ unset __conda_setup
 
 alias memo='vi memo-$(date +"%m-%d").md'
 alias dubai='ssh kimziwoo@dubai.hlilab.kr'
+alias firenze='ssh kimziwoo@firenze.hlilab.kr -p 22649'
 alias r='ranger'
 alias b='pmset -g batt | grep -Eo "\d+%" | cut -d% -f1'

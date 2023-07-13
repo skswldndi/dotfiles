@@ -53,3 +53,9 @@ name = "lang#latex"
 [[layers]]
 name = "lang#markdown"
 
+[[layers]]
+name = "lang#python"
+
+[[custom_plugins]]
+repo = "https://github.com/github/copilot.vim.git"
+merged = false
