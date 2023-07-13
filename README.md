@@ -12,6 +12,7 @@ https://user-images.githubusercontent.com/86106509/226273541-8b24936a-8ef5-43ec-
 - (zsh)Nord theme2: https://github.com/fxbrit/nord-extended
 - gruvbox theme: https://github.com/morhetz/gruvbox-contrib
 ## Alacritty 
+- Copilot cli 
 ## nvim (SpaceVim)
 - nord theme
 - gruvbox
