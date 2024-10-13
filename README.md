@@ -6,17 +6,19 @@
 - `karabiner`: ***NO EXPORTING, NEED TO DO MANUALLY*** block built-in keyboard when akko40 is connected
 - `VIA`: custom keyboard keymapping tool. ***NEED TO LOAD KEYMAP.JSON*** [link](https://github.com/skswldndi/CustomKeyboardsConfigs)
 - `QMK toolbox`: custom keyboard firmware updating tool 
+- `Vimari`: Safari+Vim 
+- `Happy Hacking Keymap Tool`
 - `Amethyst`:  ***NO EXPORTING, NEED TO DO MANUALLY*** window tiling manager
 ## General
-[-] Ignore menu bars  
-[-] Follow thrown windows between spaces  
-[-] Hide menu bar icon   
-[-] Heads up display: display layout when changing layouts and spaces   
+[x] Ignore menu bars  
+[x] Follow thrown windows between spaces  
+[x] Hide menu bar icon   
+[x] Heads up display: display layout when changing layouts and spaces   
 
 ## Layouts
-[-] restore layouts on launch   
-[-] window resize interval: 20%  
-[-] fullscreen, column, tall, two pane   
+[x] restore layouts on launch   
+[x] window resize interval: 20%  
+[x] fullscreen, column, tall, two pane   
 
 ## shortcuts  
 | Command Description | Shortcut Key |
@@ -35,10 +37,8 @@
 | Select Two pane layout | Ctrl + Shift + P |
 
 ## Mouse
-[-] mouse follows focused windows   
+[x] mouse follows focused windows   
 
-- `Vimari`: Safari+Vim 
-- `Happy Hacking Keymap Tool`
 
 # Code & Terminal emulator
 - `Alacritty`
