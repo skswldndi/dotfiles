@@ -4,7 +4,7 @@
 
 # Keyboard software
 - `karabiner`: ***NO EXPORTING, NEED TO DO MANUALLY*** block built-in keyboard when akko40 is connected
-- `VIA`: custom keyboard keymapping tool. ***need to load keymap.json***
+- `VIA`: custom keyboard keymapping tool. ***NEED TO LOAD KEYMAP.JSON***
 - `QMK toolbox`: custom keyboard firmware updating tool 
 - `Amethyst`:  ***NO EXPORTING, NEED TO DO MANUALLY*** window tiling manager
 - `Vimari`: Safari+Vim 
