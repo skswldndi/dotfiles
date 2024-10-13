@@ -8,32 +8,32 @@
 - `QMK toolbox`: custom keyboard firmware updating tool 
 - `Amethyst`:  ***NO EXPORTING, NEED TO DO MANUALLY*** window tiling manager
 ## General
-[-] Ignore menu bars
-[-] Follow thrown windows between spaces
-[-] Hide menu bar icon 
-[-] Heads up display: display layout when changing layouts and spaces 
+[-] Ignore menu bars  
+[-] Follow thrown windows between spaces  
+[-] Hide menu bar icon   
+[-] Heads up display: display layout when changing layouts and spaces   
 
 ## Layouts
-[-] restore layouts on launch 
-[-] window resize interval: 20%
-[-] fullscreen, column, tall, two pane 
+[-] restore layouts on launch   
+[-] window resize interval: 20%  
+[-] fullscreen, column, tall, two pane   
 
 ## shortcuts  
-| Cycle layout forward | Ctrl + Shift + Enter | 
-| Shrink main pane | Ctrl + Shift + H | 
-| Expand main pane | Ctrl + Shift + L | 
-| Move focus counter clockwise | Ctrl + Shift + J | 
-| Move focus clockwise | Ctrl + Shift + K | 
-| Move focus to main window | Ctrl + Shift + M | 
-| Swap focused window with main window | Ctrl + Shift + Command + M | 
-| Display current layout | Ctrl + Shift + . | 
-| Select Tall layout | Ctrl + Shift + O | 
-| Select Fullscreen layout | Ctrl + Shift + U | 
-| Select Column layout | Ctrl + Shift + I | 
-| Select Two pane layout | Ctrl + Shift + P | 
+| Cycle layout forward | Ctrl + Shift + Enter |   
+| Shrink main pane | Ctrl + Shift + H |  
+| Expand main pane | Ctrl + Shift + L |  
+| Move focus counter clockwise | Ctrl + Shift + J |   
+| Move focus clockwise | Ctrl + Shift + K |   
+| Move focus to main window | Ctrl + Shift + M |   
+| Swap focused window with main window | Ctrl + Shift + Command + M |   
+| Display current layout | Ctrl + Shift + . |   
+| Select Tall layout | Ctrl + Shift + O |   
+| Select Fullscreen layout | Ctrl + Shift + U |   
+| Select Column layout | Ctrl + Shift + I |   
+| Select Two pane layout | Ctrl + Shift + P |   
 
 ## Mouse
-[-] mouse follows focused windows 
+[-] mouse follows focused windows   
 
 - `Vimari`: Safari+Vim 
 - `Happy Hacking Keymap Tool`
