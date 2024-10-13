@@ -1,0 +1,21 @@
+[colors.primary]
+background = "#000000"
+
+[font]
+size = 13 
+
+[font.normal]
+family = "NovaMono for Powerline"
+
+[window]
+decorations = "none"
+dynamic_padding = true
+dynamic_title = true
+opacity = 0.7
+position = {x = 510, y = -305}
+dimensions = { columns = 167, lines = 20 }
+startup_mode = "Windowed"
+
+[window.padding]
+x = 30
+y = 20
