@@ -4,7 +4,7 @@
 
 # Keyboard software
 - `karabiner`: ***NO EXPORTING, NEED TO DO MANUALLY*** block built-in keyboard when akko40 is connected
-- `VIA`: custom keyboard keymapping tool. ***NEED TO LOAD KEYMAP.JSON***
+- `VIA`: custom keyboard keymapping tool. ***NEED TO LOAD KEYMAP.JSON*** [link](https://github.com/skswldndi/CustomKeyboardsConfigs)
 - `QMK toolbox`: custom keyboard firmware updating tool 
 - `Amethyst`:  ***NO EXPORTING, NEED TO DO MANUALLY*** window tiling manager
 - `Vimari`: Safari+Vim 
@@ -12,7 +12,7 @@
 
 # Code & Terminal emulator
 - `Alacritty`
-- `VScode`: ***setting sync with github ID***
+- `VScode`: ***SETTING SYNC WITH GITHUB ID***
 
 # Keyboard Launcher
 - `Alfred`: ***NO EXPORTING, NEED TO DO MANUALLY*** 
