@@ -1,10 +1,10 @@
 ![Example Image](simpler-figure.png)
 
 # Keyboard software
-- `karabiner`: block built-in keyboard when akko40 is connected
-- `VIA`: custom keyboard keymapping tool 
+- `karabiner`: ***NO EXPORTING, NEED TO DO MANUALLY*** block built-in keyboard when akko40 is connected
+- `VIA`: custom keyboard keymapping tool. need to load keymap.json  
 - `QMK toolbox`: custom keyboard firmware updating tool 
-- `Amethyst`: window tiling manager
+- `Amethyst`:  ***NO EXPORTING, NEED TO DO MANUALLY*** window tiling manager
 - `Vimari`: Safari+Vim 
 - `Happy Hacking Keymap Tool`
 
@@ -13,8 +13,8 @@
 - `VScode`: setting sync with github ID  
 
 # Keyboard Launcher
-- `Alfred` 
+- `Alfred`: ***NO EXPORTING, NEED TO DO MANUALLY*** 
 
 # Daily Editor
-- `CotEditor`
+- `CotEditor`: ***NO EXPORTING, NEED TO DO MANUALLY***
 - `IAwriter`
